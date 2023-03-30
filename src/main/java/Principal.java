@@ -3,6 +3,11 @@ public class Principal {
         int a = 2;
         int b = 3;
         System.out.println("La suma total es de: "+ suma(a,b));
+        System.out.println("El producto es de: "+multiplicar(a,b));
+    }
+
+    private static int multiplicar(int a, int b) {
+        return a * b;
     }
 
     private static int suma(int a, int b) {
